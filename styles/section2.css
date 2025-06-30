@@ -1,0 +1,57 @@
+section{
+    width: 100%;
+}
+.section2 .title{
+    font-family: "Saira Condensed";
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.section2 .rtx50-series-cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.section2 .card{
+    display: flex;
+    flex-direction: column;
+    width: 347px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px grey;
+}
+.section2 .details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    height: 300px;
+    padding: 15px;
+    background-color: #f0e41c;
+}
+.section2 .rtx-names{
+    font-size: 32px;
+    font-weight: bold;
+}
+.section2 .description{
+    font-size: 19.3px;
+    font-weight: 500;
+    line-height: 26px;
+}
+.buy-button1{
+    color: #f0e41c;
+    background-color: black;
+    font-family: "Bai Jamjuree";
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 0;
+    border-style: none;
+    border-radius: 5px;
+    transition: color, background-color 0.15s;
+}
+.buy-button1:hover{
+    color: black;
+    background-color: #ffc600;
+}

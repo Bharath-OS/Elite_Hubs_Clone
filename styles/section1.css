@@ -1,0 +1,143 @@
+p{
+    font-family: "Bai Jamjuree";
+    margin: 0;
+}
+
+.main-content{
+    /* margin: 0 264px; */
+    max-width: 1380px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+img{
+    width: 100%;
+}
+.grid-container{
+    width: 100%;
+}
+
+
+.section1{
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 2fr 1fr;
+    row-gap: 17px;
+    column-gap: 20px;
+}
+
+.images1,.images2,.images3,.images4{
+    position: relative;
+}
+
+/* Over image text code */
+.images1 .texts{
+    position: absolute;
+    top: 80px;
+    left: 32px;
+}
+.images2 .texts{
+    position: absolute;
+    top: 32px;
+    left: 32px;
+}
+/* Manufacture names */
+.images1 .texts .manufacture-name{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+.images2 .texts .manufacture-name{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+}
+
+/* Brand name */
+.images1 .texts .brand{
+    color: #ffc600;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+.images2 .texts .brand{
+    color: #ffc600;
+    font-weight: bold;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+
+/* Text description */
+.images1 .texts .description{
+    color: white;
+    margin-bottom: 20px;
+}
+.images2 .texts .description{
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.orange-button{
+    color: #000;
+    background-color: #ffc600;
+    padding: 1rem 2rem;
+    font-family: "Bai Jamjuree";
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 5px;
+    border-style: none;
+    transition: background-color 0.15s;
+}
+.orange-button:hover{
+    background-color: #ff9900;
+}
+
+.images3{
+    grid-column: span 2;
+}
+
+.images4{
+    grid-column: span 2;
+}
+/*Section 1 image styles*/
+.section1 img{
+    border-radius: 6px;
+}
+
+/* @media (max-width: 890px) {
+    .section1{
+        grid-template-columns: 1fr;
+    }
+    .images2 {
+        display: none;
+    }
+    .images1{
+        grid-column: span 1;
+    }
+    .section1 .texts{
+        top: 10%;
+    }
+}
+
+@media(max-width: 620px){
+    .section1 .texts{
+        top: 1%;
+    }
+    .section1 .texts .manufacture-name{
+        font-size: 1.4rem;
+    }
+    .section1 .texts .brand{
+        font-size: 1.8rem;
+    }
+    .section1 .texts .description{
+        font-size: .8rem;
+    }
+    .section1 .texts.orange-button{
+        font-size: .5rem;
+    }
+} */
+

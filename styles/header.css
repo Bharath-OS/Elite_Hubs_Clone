@@ -1,0 +1,147 @@
+.header-section .nav-bar{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+}
+
+.header-section .nav-bar .div1, .div2, .div3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 249px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.header-section .nav-bar .contacts{
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.header-section .div2 img{
+    width: 145px;
+}
+
+.header-section .div2{
+    justify-content: space-between;
+    gap: 50px;
+    height: 73px;
+}
+
+.header-section .search-container{
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+.header-section .search-container select,
+.header-section .search-container input,
+.header-section .search-container button{
+    height: 33px;
+    border-style: none;
+}
+.header-section .search-container select{
+    margin: 0px 20px;
+}
+
+.header-section .search-container button{
+    height: 45px;
+    width: 110px;
+    color: white;
+    background-color: #2b38d1;
+
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.header-section .search-container input{
+    font-family: "Bai Jamjuree";
+    font-size: 13px;
+    color: rgb(141, 151, 158);
+    width: 427px;
+}
+/*Icon container styles*/
+.header-section .icon-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.header-section .icon-container .icons{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.header-section .icon-container .icon{
+    position: relative;
+}
+
+.header-section .icon-container .texts{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.header-section .div2 .icon-container img,
+.header-section .div3 img{
+    height: 25px;
+    width: 23px;
+}
+
+.header-section .icon-container .texts .icon-text-big{
+    font-size: 14px;
+    font-weight: bold;
+}
+.header-section .icon-container .texts .icon-text-small{
+    font-size: 11px; 
+    vertical-align: start; 
+}
+
+/*Making notification number*/
+.header-section .count{
+    position: absolute;
+    top: -2px;
+    right: -10px;   
+}
+
+.header-section .count p{
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+}
+
+/*third row navigation bar*/
+.header-section .left-part, .middle-part, .right-part{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.header-section .middle-part{
+    padding: 0 30px;
+    border-left: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+    gap: 50px;
+}
+.header-section .left-part p{
+    font-size: 14px;
+    font-weight: bold;
+}
+.header-section .div3 a{
+    font-family: "Bai Jamjuree";
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+.right-part path{
+    width: 25px;
+    height: 25px;
+}

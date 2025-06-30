@@ -1,0 +1,44 @@
+.section4{
+    position: relative;
+}
+
+.section4-texts{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: start;
+    justify-content: center;
+
+    padding: 20px 50px;
+}
+
+.section4 .heading,.subheading{
+    color: #ffc600;
+}
+
+.section4 .subheading{
+    font-size: 25px;
+    font-weight: bold;
+}
+.section4 .subheading2{
+    font-family: "Saira Condensed";
+    color: white;
+    font-size: 19.5px;
+    font-weight: bold;
+}
+
+.section4 .heading{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.section4 .orange-button{
+    font-family: "Saira Condensed";
+    padding: 10px 20px;
+}

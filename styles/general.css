@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    background-color: #f2f2f6;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+header{
+    margin-bottom: 31px;
+}
